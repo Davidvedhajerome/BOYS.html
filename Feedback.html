@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback</title>
+    
+    <style>
+        img{
+            background-color: gold;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            left: 670px;
+            
+        }
+        hr{
+            border-style: dotted;
+            color: white;
+            
+        }
+        #ASWIN{
+            color: red;
+            text-align: center;
+        }
+        body{
+            background-color: black;
+        }
+        .dHAR{
+            font-weight: bolder ;
+            font-size: x-large;
+            color: red;
+            text-align: left;
+        }
+        #FAT{
+            position: relative;
+            bottom: 280px;
+        }
+        #has{
+            position: relative;
+            top: 10px;
+        }
+        .Text{
+            height: 200px;
+            width: 400px;
+        }
+        .bottom-container{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #3cb0fd;
+            text-align: center;
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <h1 id="ASWIN">FEEDBACK</h1>
+            <hr>    
+            <form class="dHAR" action="mailto:davidvedhaj@gmail.com" method="post">
+                
+                <label for="name">Your Name</label>
+                <input type="text"  name="name" placeholder="Your name.."><br>
+                <label for="lname">Email</label>
+                <input type="email"  name="email" placeholder="Your email.."><br>
+                   
+                <label for="message">Message:</label><br>
+                <textarea  name="message" placeholder="Write something.." class="Text"></textarea><br>
+            
+                <label>RATINGS:</label><br>
+                <p>1.How is the project?</p>
+                <input type="checkbox" name="Ratings" value="1">1</input><br>
+                <input type="checkbox" name="Ratings" value="2">2</input><br>
+                <input type="checkbox" name="Ratings" value="3">3</input><br>
+                <input type="checkbox" name="Ratings" value="4">4</input><br>
+                <input type="checkbox" name="Ratings" value="5">5</input><br>
+                <input type="submit" value="Submit"><br>      
+            </form>
+        </div>
+        <hr>
+        <div class="bottom-container">
+            <p style="font-size: x-large;">©We are The Boys</p>
+        </div>
+    </div>
+    
+</body>
+</html>
